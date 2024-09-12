@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  flex-basis: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1 {
+  margin-left: 5%;
+  background-color: white;
+}
+
+.horizontal {
+  width: 100%;
+}
+
+.horizontal-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vertical {
+  height: 100%;
+}
+
+.vertical-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.lightyellow {
+  background-color: lightyellow;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
